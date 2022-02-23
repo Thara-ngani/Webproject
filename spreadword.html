@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+
+    </title>
+    </head>
+
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<script>
+
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<img class="stw" src="https://www.spreadtheword.org.uk/wp-content/uploads/2016/11/Spread-The-Word-Logo-White-300x167.png" alt="spreadtheword" style="width: 150px" align="top left" />
+
+<h1 class="topic"><strong>SPREAD THE WORD</strong></h1>
+
+<div class="pic">
+<img src="https://images.pexels.com/photos/11025022/pexels-photo-11025022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Studying children" style="width: 50%;" align="left"  />
+
+<img src="https://images.pexels.com/photos/8617956/pexels-photo-8617956.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="class" style="width: 50%;" align="border-right" />
+</div>
+
+
+
+    </body>
+</html>
