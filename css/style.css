@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: verdana;
+	background-color: #A3E4D7;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header-section{
+	padding: 20px 0;
+	background-color: black;
+	color: white;
+}
+
+.nav{
+	float: right;
+}
+
+.nav a{
+	padding: 0 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.content-section{
+	padding: 10px 0;
+}
+
+.goal-heading {
+	padding: 20px 0;
+}
+
+.goal-left-img{
+	padding: 0;
+}
+
+.logo-img img{
+	width: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.social-links{
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.social-links a{
+	padding: 10px;
+}
+
+.footer-section{
+	padding: 10px 0;
+	background-color: black;
+	color: white;
+}
+
+
+/*  ================== Target Page ================== */
+.content-head-section{
+	background-image:url("images/pexels-photo-255379.jpg");
+	font: #000;
+	padding: 20px 0;
+}
+
+
+/* ==================== Contact Us ================== */
+.contact-right-side{
+	background-color: blue;
+	padding: 20px;
+	color: #fff;
+}
+
+.contact-left-side{
+	background-color: burlywood;
+	padding: 20px;
+	color: #000;
+}
+
+.submit-btn{
+	padding: 10px 0;
+}
+
+textarea[type=text],input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid blue;
+	background: transparent;
+  }
