@@ -62,16 +62,6 @@ body{
 	background-color: black;
 	color: white;
 }
-
-
-/*  ================== Target Page ================== */
-.content-head-section{
-	background-image:url("images/pexels-photo-255379.jpg");
-	font: #000;
-	padding: 20px 0;
-}
-
-
 /* ==================== Contact Us ================== */
 .contact-right-side{
 	background-color: blue;
