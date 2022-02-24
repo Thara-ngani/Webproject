@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*  ================== Target Page ================== */
+.content-head-section{
+	background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fschool-school-back-above-back-to-school-backdrop-background-banner-image118501020&psig=AOvVaw1FxyKtwr38wbSXEcFbJduq&ust=1645776088049000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiSvfjvl_YCFQAAAAAdAAAAABAE ");
+	font: #000;
+	padding: 50px 50;
+}
