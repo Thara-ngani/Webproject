@@ -62,29 +62,7 @@ body{
 	background-color: black;
 	color: white;
 }
-/* ==================== Contact Us ================== */
-.contact-right-side{
-	background-color: blue;
-	padding: 20px;
-	color: #fff;
+.theam{
+	font-family: cursive;
+	color: yellow;
 }
-
-.contact-left-side{
-	background-color: burlywood;
-	padding: 20px;
-	color: #000;
-}
-
-.submit-btn{
-	padding: 10px 0;
-}
-
-textarea[type=text],input[type=text] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	box-sizing: border-box;
-	border: none;
-	border-bottom: 2px solid blue;
-	background: transparent;
-  }
